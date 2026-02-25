@@ -106,7 +106,7 @@ classdef N9030A
         function val = amplitudeAtFrequency(obj, freq, IFBW)
             switch nargin
                 case 2
-                    IF = 10e6; %default to 10 KHz
+                    IF = 10e6; %default to 10 MHz
                 case 3
                     IF = IFBW;
             end
